@@ -40,13 +40,13 @@ RM = rm -f
 # Buils the program and links dependencies
 $(MAIN): $(OBJS)
 	@echo ""
-	@echo " --- COMPILANDO PROGRAMA ---"
+	@echo " --- BUILDING PROGRAM ---"
 	@$(CC) $(CFLAGS) $(OBJS) -lm -o $(MAIN)
 	@echo ""
 
 %.o: %.c %.h
 	@echo ""
-	@echo " --- COMPILANDO OBJETO \"$@\""
+	@echo " --- BUILDING OBJECT \"$@\""
 	@$(CC) $(CFLAGS) $< -c 
 
 clean:
