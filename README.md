@@ -6,9 +6,9 @@ Boilerplate Makefile for C projects
   
   `make clean`: Cleans object files created on build
   
-  `make gprof`: Runs the program using gprof (tool for profiling)
+  `make gprof`: Runs the program using [gprof](https://en.wikipedia.org/wiki/Gprof) (tool for profiling)
   
-  `make valgrind`: Runs the program using valgrind (tool to help detect memory leaks)
+  `make valgrind`: Runs the program using [valgrind](http://valgrind.org/) (tool to help detect memory leaks)
   
  
 # Author
